@@ -1,6 +1,13 @@
+# Executables
 *.exe
-*.vscode
+
+# Build folders
+build/
+debug/
+
+# Object files
 *.o
 *.obj
-*input.txt
-*output.txt
+
+# VS Code local settings (optional)
+.vscode/
