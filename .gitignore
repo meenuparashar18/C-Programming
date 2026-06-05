@@ -1,4 +1,6 @@
 *.exe
-*.out
-*.o
 *.vscode
+*.o
+*.obj
+*input.txt
+*output.txt

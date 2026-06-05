@@ -1,5 +1,8 @@
-#include<iostream>
+#include<bits/stdc++.h>
+using namespace std;
+
 int main(){
-    std::cout<<"hey meenu";
-    return 0;
+    int x;
+    cin>>x;
+    cout<<"Hey " <<x;
 }
