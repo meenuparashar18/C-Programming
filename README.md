@@ -1,4 +1,4 @@
-# 🚀 Meenu's C++ & DSA Journey
+# 🚀  C++ & DSA Journey
 
 Welcome to my C++ and Data Structures & Algorithms practice repository.
 
