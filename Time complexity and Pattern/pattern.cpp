@@ -37,3 +37,38 @@ using namespace std;
 // }
 
 
+//Ques2---------------------------------------------------------------
+/*
+*
+**
+***
+****
+*/
+//normal function
+
+// void print2(int n){
+//     for(int i=1; i <= n; i++){
+//         for(int j=1; j<=i;  j++){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     print2(4);
+// }
+//--------------------------------------------------------------------------------------------
+//same ques by user input 
+// void print2(int n){
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             cout << "* ";
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin >>n;
+//     print2(n);
+// }
