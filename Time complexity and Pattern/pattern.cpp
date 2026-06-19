@@ -222,3 +222,61 @@ using namespace std;
 //     cin >>n;
 //     print6(n);
 // }
+
+//Ques-7----------------------------------------------------------
+/*
+*
+***
+*****
+*******
+*********
+*/
+// void print7(int n){
+//     for(int i=0; i<n; i++){
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         //star
+//         for(int j=0; j<2*i+1; j++){
+//             cout << "*";
+//         }
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         cout <<endl;
+
+//     }
+// }
+
+// int main(){
+//     print7(5);
+// }
+
+
+//user input----------------------------------------------------------
+// void print7(int n){
+//     for(int i=0; i<n; i++){
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         //star
+//         for(int j=0; j<2*i+1; j++){
+//             cout << "*";
+//         }
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         cout <<endl;
+
+//     }
+// }
+
+// int main(){
+//     int n;
+//     cin>>n;
+//     print7(n);
+// }
