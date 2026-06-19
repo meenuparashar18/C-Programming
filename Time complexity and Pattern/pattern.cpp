@@ -72,3 +72,43 @@ using namespace std;
 //     cin >>n;
 //     print2(n);
 // }
+
+
+//ques3-----------------------------------------------
+/*
+1
+12
+123
+1234
+12345
+    */
+   ///nrmal 
+//    void print3(int n){
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             cout << j << " ";
+//         }
+//         cout << endl;
+//     }
+//    }
+//    int main(){
+//     print3(5);
+//    }
+//-------------------------------------------------
+//user input 
+// void print3(int n){
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             cout << j << "";
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin >> n;
+//     print3(n);
+// }
+
+
+
