@@ -14,7 +14,7 @@ This repository documents my learning journey as I build strong problem-solving 
 
 ## 📚 Roadmap
 
-- [x] Input / Output
+- [ ] Input / Output
 - [ ] Data Types
 - [ ] Operators
 - [ ] Conditional Statements
@@ -27,7 +27,7 @@ This repository documents my learning journey as I build strong problem-solving 
 - [ ] Stacks & Queues
 - [ ] Trees
 - [ ] Graphs
-- [ ] Dynamic Programming
+- [] Dynamic Programming
 
 ## 📂 Repository Structure
 
