@@ -120,7 +120,7 @@ using namespace std;
 4 4 4 4
 5 5 5 5 5
 */
-//normal soln
+//normal solution
 // void print4(int n){
 //     for(int i=1; i<=n; i++){
 //         for(int j=1; j<=i; j++){
@@ -186,4 +186,39 @@ using namespace std;
 //     print5(n);
 // }
 
+//ques6-------------------------------------------------------------
+/*
+  12345
+  1234
+  123
+  12
+  1
+*/
+//normal ans
+// void print6(int n){
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=n-i+1; j++){
+//             cout << j <<"";
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     print6(5);
+// }
 
+//user input--------------------------------------------------------------------
+// void print6(int n){
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=n-i+1; j++){
+//             cout << j <<"";
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin >>n;
+//     print6(n);
+// }
