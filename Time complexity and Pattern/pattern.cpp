@@ -255,7 +255,7 @@ using namespace std;
 // }
 
 
-//user input----------------------------------------------------------
+//user input---------------------------------------------------------- 
 // void print7(int n){
 //     for(int i=0; i<n; i++){
 //         //space
@@ -279,4 +279,59 @@ using namespace std;
 //     int n;
 //     cin>>n;
 //     print7(n);
+// }
+
+
+//Ques8----------------------------------------------------------------
+/*
+*********
+*******
+*****
+***
+*
+*/
+
+// void print8(int n){
+//     for(int i=0; i<n; i++){
+// //space
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// //star
+// for(int j=0; j<2*n-(2*i+1); j++){
+//     cout << "*";
+// }
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// cout <<endl;
+//     }
+// //
+//     }
+//     int main(){
+//         print8(5);
+//     }
+
+//user input-------------------------------------------------------------
+// void print8(int n){
+//     for(int i=0; i<n; i++){
+// //space
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// //star
+// for(int j=0; j<2*n-(2*i+1); j++){
+//     cout << "*";
+// }
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// cout <<endl;
+//     }
+// //
+//     }
+// int main(){
+//     int n;
+//     cin >>n;
+//     print8(n);
 // }
