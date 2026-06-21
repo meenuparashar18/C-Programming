@@ -352,42 +352,74 @@ using namespace std;
 */
 
 //normal
-void print7(int n){
-    for(int i=0; i<n; i++){
-        //space
-        for(int j=0; j<n-i-1; j++){
-            cout << " ";
-        }
-        //star
-        for(int j=0; j<2*i+1; j++){
-            cout << "*";
-        }
-        //space
-        for(int j=0; j<n-i-1; j++){
-            cout << " ";
-        }
-        cout <<endl;
+// void print7(int n){
+//     for(int i=0; i<n; i++){
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         //star
+//         for(int j=0; j<2*i+1; j++){
+//             cout << "*";
+//         }
+//         //space
+//         for(int j=0; j<n-i-1; j++){
+//             cout << " ";
+//         }
+//         cout <<endl;
 
-    }
-}
-void print8(int n){
+//     }
+// }
+// void print8(int n){
+//     for(int i=0; i<n; i++){
+// //space
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// //star
+// for(int j=0; j<2*n-(2*i+1); j++){
+//     cout << "*";
+// }
+// for(int j=0; j<i; j++){
+//     cout<< " ";
+// }
+// cout <<endl;
+//     }
+// //
+//     }
+//     int main(){
+//         print7(5);
+//          print8(5);
+//     }
+
+
+//Ques-9--------------------------------
+/*
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+*/
+void print10(int n){
     for(int i=0; i<n; i++){
-//space
-for(int j=0; j<i; j++){
-    cout<< " ";
-}
-//star
-for(int j=0; j<2*n-(2*i+1); j++){
-    cout << "*";
-}
-for(int j=0; j<i; j++){
-    cout<< " ";
-}
-cout <<endl;
+       for(int j=0; j<i; j++){
+        cout << " ";
+       } 
+       for(int j=0; j<2*n-1; j++){
+        cout << "*";
+       }
+       for(int j=0; j<i; j++){
+        cout << " ";
+       }
+       cout << endl;
     }
-//
-    }
-    int main(){
-        print7(5);
-         print8(5);
-    }
+
+}
+int main(){
+    print10(9);
+}
