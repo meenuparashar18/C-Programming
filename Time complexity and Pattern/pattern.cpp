@@ -434,21 +434,59 @@ Ques11----------------------------------------------------------
 0101
 10101
 */
-void print11(int n){
-    for(int i=0; i<n; i++){
-        int start =1;
-        if(i %2 ==0)start =1;
-        else start =0;
-        for(int j=0; j<=i; j++){
-            cout << start <<  " ";
-            start = 1-start;
+//user input-------------------------------------
+// void print11(int n){
+//     for(int i=0; i<n; i++){
+//         int start =1;
+//         if(i %2 ==0)start =1;
+//         else start =0;
+//         for(int j=0; j<=i; j++){
+//             cout << start <<  " ";
+//             start = 1-start;
 
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin >> n;
+//     print11(5);
+// }
+
+/*
+Ques`12----------------------------------------------------------------------------
+1       1
+12     21
+123   321
+12344321
+*/
+
+void pattern(int n) {
+    for(int i = 1; i <= n; i++) {
+        
+        // increasing numbers
+        for(int j = 1; j <= i; j++) {
+            cout << j;
         }
+
+        // spaces
+        for(int j = 1; j <= 2 * (n - i); j++) {
+            cout << " ";
+        }
+
+        // decreasing numbers
+        for(int j = i; j >= 1; j--) {
+            cout << j;
+        }
+
         cout << endl;
     }
 }
-int main(){
+
+int main() {
     int n;
     cin >> n;
-    print11(5);
+    pattern(n);
+    return 0;
 }
