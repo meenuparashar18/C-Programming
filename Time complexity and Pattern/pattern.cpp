@@ -462,31 +462,55 @@ Ques`12-------------------------------------------------------------------------
 12344321
 */
 
-void pattern(int n) {
-    for(int i = 1; i <= n; i++) {
+// void pattern(int n) {
+//     for(int i = 1; i <= n; i++) {
         
-        // increasing numbers
-        for(int j = 1; j <= i; j++) {
-            cout << j;
-        }
+//         // increasing numbers
+//         for(int j = 1; j <= i; j++) {
+//             cout << j;
+//         }
 
-        // spaces
-        for(int j = 1; j <= 2 * (n - i); j++) {
-            cout << " ";
-        }
+//         // spaces
+//         for(int j = 1; j <= 2 * (n - i); j++) {
+//             cout << " ";
+//         }
 
-        // decreasing numbers
-        for(int j = i; j >= 1; j--) {
-            cout << j;
-        }
+//         // decreasing numbers
+//         for(int j = i; j >= 1; j--) {
+//             cout << j;
+//         }
 
-        cout << endl;
-    }
-}
+//         cout << endl;
+//     }
+// }
 
-int main() {
-    int n;
-    cin >> n;
-    pattern(n);
-    return 0;
-}
+// int main() {
+//     int n;
+//     cin >> n;
+//     pattern(n);
+//     return 0;
+// }
+//Ques13------------------------------------------------------------------
+/*
+1
+2  3
+4  5  6
+7  8  9  10
+11 12 13 14 15
+*/
+// void print13(int n){
+//     int num = 1;
+//     for(int i=0; i<=n; i++){
+//         for(int j=0; j<=i; j++){
+//             cout << num << " ";
+//             num = num + 1;
+//         }
+//         cout << endl;
+//     }
+// }
+// int main(){
+//     int n;
+//     cin >>n;
+//     print13(n);
+// }
+
