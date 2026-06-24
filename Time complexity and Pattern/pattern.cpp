@@ -589,27 +589,50 @@ ABCBA
 ABCDCBA
 */
 
-void print17(int n){
+// void print17(int n){
+//     for(int i=0; i<n; i++){
+//         //spaces
+// for(int j=0; j<n-i-1; j++){
+//     cout << " ";
+// }
+//     //char
+//     char ch = 'A';
+//     int breakpoint = (2*i+1) / 2;
+//     for(int j=1; j<= 2*i +1; j++){
+//         cout << ch;
+//         if(j <= breakpoint) ch++;
+//         else ch--;
+//     }
+//     for(int j=0; j<n-i-1; j++){
+//     cout << " ";
+// }
+// cout << endl;
+
+// }
+//     }
+//     int main(){
+//         print17(5);
+//     }
+
+
+//Ques18-------------------------------------------------------------
+/*
+E
+DE
+CDE
+BCDE
+ABCDE
+*/
+
+void print18(int n){
     for(int i=0; i<n; i++){
-        //spaces
-for(int j=0; j<n-i-1; j++){
-    cout << " ";
-}
-    //char
-    char ch = 'A';
-    int breakpoint = (2*i+1) / 2;
-    for(int j=1; j<= 2*i +1; j++){
-        cout << ch;
-        if(j <= breakpoint) ch++;
-        else ch--;
-    }
-    for(int j=0; j<n-i-1; j++){
-    cout << " ";
+for(char ch= 'E' -i; ch <= 'E'; ch++){
+    cout << ch <<" ";
 }
 cout << endl;
+    } 
 
 }
-    }
-    int main(){
-        print17(5);
-    }
+int main(){
+    print18(5);
+}
