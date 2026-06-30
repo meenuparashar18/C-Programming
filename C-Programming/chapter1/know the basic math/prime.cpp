@@ -1,5 +1,5 @@
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
 //reduce tc 
 // int main(){
@@ -23,22 +23,22 @@ using namespace std;
 // }
 
 //bruth tc
-int main(){
-    int count =0;
-    int n=0;
-    cin >> n;
-    for(int i=1; i<=n; i++){
-        if(n % i==0){
-            count++;
+// int main(){
+//     int count =0;
+//     int n=0;
+//     cin >> n;
+//     for(int i=1; i<=n; i++){
+//         if(n % i==0){
+//             count++;
 
 
-        }
-    }
-        if(count == 2){
-            cout << "true";
-        }else{
-           cout << "false";
-        }
+//         }
+//     }
+//         if(count == 2){
+//             cout << "true";
+//         }else{
+//            cout << "false";
+//         }
     
-    return 0;
-}
+//     return 0;
+// }
